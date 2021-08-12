@@ -205,18 +205,19 @@ img {
 
 // About
 #about {
+  // About A
   &-a {
     .about-info {
       display: grid;
       grid-template-areas:
-        "bioimage bio bio"
+        "bio-image bio bio"
         "aw1 aw2 aw3";
       grid-gap: 1.2rem;
     }
 
     // Grid area
     .bio-image {
-      grid-area: bioimage;
+      grid-area: bio-image;
     }
 
     .bio {
@@ -240,6 +241,37 @@ img {
     .award-3 .fas {
       color: $main-color;
       margin: 1rem;
+    }
+  }
+
+  // About B
+  &-b {
+    .progress {
+      overflow: hidden;
+      height: 20px;
+      background: $medium-color;
+      border-radius: 5px;
+      margin-bottom: 0.6rem;
+
+      div {
+        height: 100%;
+        color: #fff;
+        text-align: center;
+        background: $main-color;
+      }
+    }
+  }
+
+  // About C
+  &-c {
+    .about-logos {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 2rem;
+
+      img {
+        width: 70%;
+      }
     }
   }
 }
