@@ -25,8 +25,8 @@ A developer portfolio and project showcase website styled with custom Sass/SCSS 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AntonioHellin/portfolio_website.git
-   cd portfolio_website
+   git clone https://github.com/AntonioHellin/developer-portfolio-site.git
+   cd developer-portfolio-site
    ```
 
 2. Install dependencies:
