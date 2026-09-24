@@ -46,7 +46,3 @@ A developer portfolio and project showcase website styled with custom Sass/SCSS 
    npx serve dist
    ```
 2. Navigate between Home, About, My Work, and Contact pages.
-
-## License
-
-This project is licensed under the [ISC License](LICENSE).
